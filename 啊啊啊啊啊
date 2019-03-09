@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .header{
+            background-color:blue;
+            height: 30px;
+            margin: 10px;
+            display: inline-block;
+            border:2px solid #4BABFF;
+            color: #FFFFFF;
+            font-size: 25px;
+
+
+        }
+        .headers{
+            text-align: center;
+            background-color: #88ccff;
+        }
+        .header2{text-align: center;vertical-align: middle;line-height: 350px}
+        p{text-align: center;
+            color: #FFFFFF;
+            font-size: 18px;}
+
+    </style>
+</head>
+
+<body>
+<div style="background-color:#4F6375;padding: 5px">
+<div style="background-color:#999999;padding: 7px">
+<div class="headers">
+
+
+    <div class="header" style="width: 27%">Logo</div>
+
+    <div class="header" style="width: 40%">Search</div>
+
+    <div class="header" style="width: 27%">Tools</div>
+</div>
+<div class="headers" style="background-color: coral">
+    <div class="header header2" style="height: 400px;width:75%;background-color:#FFD700;" >Images</div>
+    <div class="header header2" style="height: 400px;width: 20%;background-color: darkorange">Title</div>
+</div>
+<div class="headers">
+<div style="width:96%;height: 50px;background-color: darkorchid;" class="header">Nav</div>
+</div>
+</div><p>Page</p>
+</div>
+</body>
+</html>
